@@ -1,0 +1,15 @@
+{
+  "include": ["env.d.ts", "src/**/*", "src/**/*"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "moduleResolution": "node", 
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "preserveValueImports": false,
+    "verbatimModuleSyntax": false,
+    "jsx": "react"
+  }
+}
